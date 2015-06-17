@@ -1,0 +1,180 @@
+::Selection{
+	background: yellow;
+}
+
+/*********Utilities*********/
+
+.u-title{
+	color: #00CCFF;
+	text-align: center;
+	border-bottom: 2px dashed;
+	font-weight: normal;
+	padding-bottom: .6em;
+	margin-bottom: 1.5em;
+}
+
+.u-containerDefault{
+    width: 50em;
+    margin: 0 auto;
+}
+
+/*********Menú***********/
+
+.MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em; /* "em" se utiliza para hacer un tamaño relativo, de acuerdo al tamaño de texto más cercano, en este caso 16px de tamaño de fuente que esta en html en normalize*/
+	position: fixed; /* para que el menu se desplace por toda la navegación*/
+	left: 0;
+	right: 0; /*para que el menúa quede de todo el ancho, porque debido al position fixed se había perdido el ancho, con left =0 y right=0 se corrige*/
+	top:0; /*para que quede sin espacio arriba*/
+}
+
+.MainMenu-list{
+	padding: 0;	
+	margin: 0; /*padding = 0 y margin=0 elimina las margenes y el paddin de la lista para que el contenido del menú pueda quedar centrado con line height*/
+}
+
+.MainMenu-item{
+	display: inline-block;
+}
+
+
+.MainMenu-link{
+	color: #00DBFF;
+	text-decoration: none;
+	line-height: 3.75em; /*centrar verticalmente, Solo funciona cuando es solo una línea como en este caso, y va de acuerdo a su padre MainMenu para este caso*/
+	margin-right: 1.5em;
+}
+
+/*********Header*********/
+
+.Header{
+	margin-top: 3.75em;
+	background-image: url('../images/bg_header2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover; /*cover es igual que poner 100%, es para que ocupe todo el espacio del contenedor*/	
+	text-align: center;
+	padding: 1.2em 0;
+}
+
+.Header-image{
+	border: 5px solid white;
+	border-radius: 50%; /*se puede poner como en margin para darle un borde diferente a cada esquina en px o em*/
+	-webkit-transition:1s;
+}
+
+.Header-image:hover{	
+	-webkit-transform: rotateY(360deg) scale(0.5, 0.5);
+	
+}
+
+.Header-link, .Header-name {
+	color: white;
+}
+
+.Header-link{
+	font-size: 2.15em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-name{
+	margin: 0;
+}
+
+
+/*********Profile*********/
+
+
+.Profile{
+	text-align: center;
+}
+
+.Profile-description{
+	margin-bottom: 3em;
+}
+
+.Profile-link{
+	background: orange;
+	border-radius: 2em;
+	color: white;
+	margin-right: .5em;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+
+/*********Work*********/
+
+.Work{
+	text-align: center;
+	
+}
+
+.Work-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+
+.Work-imageContainer{
+	margin: 0; /*para eliminar la mergen que tiene por defecto la etiqueta img*/
+}
+
+.Work-description{
+	font-size: 1.1m;
+	font-style: italic;;
+	color:#515151;
+}
+
+/*********Footer*********/
+
+.Footer{
+	background-image: url('../images/footer.jpg');
+	background-repeat: no-repeat;;
+	background-position: center;
+	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
+}
+
+.Footer-title{
+	color: white;
+}
+
+.Footer-left{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 24em;
+	margin-right: 5em;
+}
+
+.Footer-form{
+	text-align: center;
+	display: inline-block;
+}
+
+.Footer-formInput, .Footer-textarea{
+	border-radius: 2em;
+	display: block;
+	margin-bottom: .5em;
+	padding: .5em;
+	border: none;
+	margin: 0 auto .5em; /*Para que el atributo text align center (footer-form) funcione se debe poner el margin en auto y el 0 es para arriba y abajo y .5em el margin bottom*/
+}
+
+.Footer-textarea{
+	resize:none;
+	border-radius: .7em;
+}
+
+.Footer-button{
+	background: orange;
+	color: white;
+	border-radius: 1em;
+	padding: .5em 2em;
+	border:none;
+}
+
+

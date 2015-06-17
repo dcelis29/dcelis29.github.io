@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Portafolio</title>
+	<meta charset = "UTF-8"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../static/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/estilos.css">
+</head>
+<body>
+	<header id="yo" class="Header">		
+		<nav class="MainMenu">
+			<ul class="MainMenu-list">
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#">Yo</a> 
+				</li>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#">Perfil</a>
+				</li>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#">Trabajo</a>
+				</li>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#">Contacto</a>
+				</li>
+			</ul>
+		</nav>	
+		<figure class="Header-imageContainer">
+			<img class="Header-image" src="../static/images/avatar.jpg" alt="Avatar">
+			<figcaption class="Header-imageDescription">
+				<a class="Header-link" href="http://twitter.com/@diegocelisa/" target="_black">@diegocelisa</a>
+				<p class="Header-name">Diego Celis</p>
+			</figcaption>
+		</figure>
+	</header>
+
+	<section id="perfil" class="Profile">
+		<div class="u-containerDefault">
+			<h2 class="Profile-title u-title">Perfil</h2>
+		</div>
+		<p class="Profile-description">Hola este es mi perfil, visítalo y contáctame</p>
+		<a class="Profile-link" href="http://twitter.com/@diegocelisa/" target="_black">@diegocelisa</a>
+		<a class="Profile-link" href="http://facebook.com/@dcelisa/" target="_black">Diego Fernando</a>
+		<a class="Profile-link" href="http://github.com/@dcelisa/" target="_black">dcelis29</a>
+	</section>
+	<section id="trabajo" class="Work">
+		<div class="u-containerDefault"> 
+                <h2 class="Work-title u-title">Trabajo</h2>
+        </div>
+		
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="../static/images/thumb1.jpg" alt="imagen 1">
+				<figcaption class="Work-description">Trabajo 1</figcaption>
+			</figure>
+		</article>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="../static/images/thumb2.jpg" alt="imagen 2">
+				<figcaption class="Work-description">Trabajo 2</figcaption>
+			</figure>
+		</article>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="../static/images/thumb3.jpg" alt="imagen 3">
+				<figcaption class="Work-description">Trabajo 3</figcaption>
+			</figure>
+		</article>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="../static/images/thumb1.jpg" alt="imagen 4">
+				<figcaption class="Work-description">Trabajo 4</figcaption>
+			</figure>
+		</article>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="../static/images/thumb1.jpg" alt="imagen 5">
+				<figcaption class="Work-description">Trabajo 5</figcaption>
+			</figure>
+		</article>
+	</section>
+	
+	<footer id="contacto" class="Footer">
+		<div class="Footer-left">
+			<h3 class="Footer-title">Contacto</h3>		
+			<p class="Footer-description">Si tienes alguna sugerencia o quieres trabajar conmigo, contáctame</p>
+		</div>
+		<form class="Footer-form">		
+			<input class="Footer-formInput" type="text" placeholder ="Nombre"/>
+			<input class="Footer-formInput" type="email" placeholder ="Email"/>
+			<textarea class="Footer-textarea" placeholder="Motivo"></textarea>
+			<button class="Footer-button" type="submit">Enviar</button>
+		</form>
+	</footer>
+</body>
+</html>
