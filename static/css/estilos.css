@@ -177,4 +177,30 @@
 	border:none;
 }
 
+.parrafo{
+	margin: 2em auto;
+	width: 45em;
+	text-align: justify;
+}
+
+.prologo{
+	margin: 2em auto;
+	width: 35em;
+	text-align: center;
+	font-style: italic;
+}
+
+.nota{
+	margin: 2em auto;
+	width: 55em;
+	text-align: left;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.lista-competencias{
+	margin: 2em auto;
+	width: 45em;
+	text-align: left;
+}
 
